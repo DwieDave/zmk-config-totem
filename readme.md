@@ -4,14 +4,13 @@
   <img alt="TOTEM logo font" src="/docs/images/TOTEM_logo_bright.svg">
 </picture>
 
-# Forked ZMK CONFIG FOR THE TOTEM SPLIT KEYBOARD
+# QWERTY ZMK CONFIG FOR THE TOTEM SPLIT KEYBOARD
 
-This fork contains a qwerty-layout keymap for the TOTEM split keyboard.
-Without the TVP layers, the TOTEM origainally had.
+This fork contains a QWERTY-layout keymap for the TOTEM split keyboard without the TVP layers, the TOTEM originally had.
 
 The original keymap is based on the [zmk-config-totem](https://github.com/GEIGEIGEIST/zmk-config-totem) repo.
 
-# Original Readme
+# ORIGINAL README
 
 [Here](https://github.com/GEIGEIGEIST/totem) you can find the hardware files and build guide.\
 [Here](https://github.com/GEIGEIGEIST/qmk-config-totem) you can find the QMK config for the TOTEM.
