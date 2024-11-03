@@ -67,6 +67,7 @@
 
     keymap {
         compatible = "zmk,keymap";
+
         base_layer {
             label = "BASE";
             bindings = <
@@ -84,7 +85,6 @@
         &kp LSHFT  &trans     &kp DOWN    &kp UNDER  &kp LBKT    &kp RBKT  &kp N4  &kp N5  &kp N6  &kp MINUS
 &trans  &kp DEL    &kp PG_UP  &caps_word  &kp PG_DN  &kp LPAR    &kp RPAR  &kp N1  &kp N2  &kp N3  &kp STAR   &kp EQUAL
                               &trans      &trans     &trans      &mo ADJ   &kp N0  &trans
-            >;
             >;
         };
 
