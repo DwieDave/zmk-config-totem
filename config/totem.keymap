@@ -32,6 +32,7 @@
 / {
     combos {
         compatible = "zmk,combos";
+
         combo_esc {
             timeout-ms = <50>;
             key-positions = <0 1>;
@@ -71,10 +72,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-       &kp Q       &kp W       &kp E        &kp R        &kp T          &kp Y    &kp U        &kp I        &kp O       &kp P
-       &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G          &kp H    &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RGUI SEMI
-&kp Q  &kp Z       &kp X       &kp C        &kp V        &kp B          &kp N    &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
-                               &kp DEL      &lt NAV TAB  &lt MOU SPACE  &kp RET  &lt SYM ESC  &kp BSPC
+       &kp Q       &kp W       &kp E        &kp R        &kp T            &kp Y    &kp U        &kp I        &kp O       &kp P
+       &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G            &kp H    &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt RGUI SEMI
+&kp Q  &kp Z       &kp X       &kp C        &kp V        &kp B            &kp N    &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
+                               &kp DEL      &lt NAV TAB  &lt MOU SPACE    &kp RET  &lt SYM ESC  &kp BSPC
             >;
         };
 
@@ -101,10 +102,10 @@
         mouse_layer {
             label = "MOU";
             bindings = <
-        &trans  &trans  &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &mkp RCLK   &mkp LCLK   &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans      &trans      &trans    &trans  &trans  &trans
+        &trans  &trans          &trans     &trans            &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans          &mkp RCLK  &mkp LCLK         &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &msc SCROLL_UP  &trans     &msc SCROLL_DOWN  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans     &trans            &trans    &trans  &trans  &trans
             >;
         };
 
