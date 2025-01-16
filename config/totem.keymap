@@ -22,6 +22,7 @@
 #define SYM  2
 #define MOU  3
 #define ADJ  4
+#define GAM  5
 
 &mt {
     quick-tap-ms = <100>;
@@ -115,16 +116,17 @@
             bindings = <
         &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
         &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &tog 5
+&trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &tog GAM
                                  &trans        &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         gaming_layer {
+            label = "GAM";
             bindings = <
         &trans  &trans  &trans          &trans            &trans       &trans  &trans  &trans  &trans  &trans
         &kp A   &kp S   &kp D           &kp F             &trans       &trans  &kp J   &kp K   &kp L   &kp SEMICOLON
-&trans  &trans  &trans  &trans          &trans            &trans       &trans  &trans  &trans  &trans  &trans         &tog 5
+&trans  &trans  &trans  &trans          &trans            &trans       &trans  &trans  &trans  &trans  &trans         &tog GAM
                         &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp SPACE    &trans  &trans  &trans
             >;
         };
