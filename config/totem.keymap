@@ -94,10 +94,10 @@
         sym_layer {
             label = "SYM";
             bindings = <
-        &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET     &kp RA(U)     &kp STAR    &kp RA(O)   &kp DQT
-        &kp RA(A)  &kp RA(S)  &trans    &trans    &trans       &kp C_MUTE    &kp AMPS      &trans      &kp GRAVE   &kp SQT
-&trans  &trans     &trans     &trans    &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp BSLH  &trans
-                              &trans    &gif      &mo ADJ      &trans        &kp C_PP      &trans
+           &kp EXCL   &kp AT     &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET     &kp RA(U)     &kp STAR    &kp RA(O)   &kp DQT
+           &kp RA(A)  &kp RA(S)  &trans    &trans    &trans       &kp C_MUTE    &kp AMPS      &trans      &kp GRAVE   &kp SQT
+&kp TILDE  &trans     &trans     &trans    &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp BSLH  &trans
+                                 &trans    &gif      &mo ADJ      &trans        &kp C_PP      &trans
             >;
         };
 
